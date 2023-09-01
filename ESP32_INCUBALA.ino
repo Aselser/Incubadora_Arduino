@@ -15,7 +15,7 @@ const char *password = "...";  // Enter Wi-Fi password
 // MQTT Broker
 const char *mqtt_broker = "broker.hivemq.com";
 const char *topic = "Incubadoras/Incubadora1";
-const char *clientID = "7ubLLYZWdcg8uX";
+const char *clientID = "7ubLLYZWdcg7iZ";
 //const char *mqtt_username = "aguscosta";
 //const char *mqtt_password = "1234";
 const int mqtt_port = 1883;
@@ -56,18 +56,6 @@ void setup() {
     client.subscribe(topic);
 }
 
-/*
-void callback(char *topic, byte *data, unsigned int length) {
-    Serial.print("Message arrived in topic: ");
-    Serial.println(topic);
-    Serial.print("Message:");
-    for (int i = 0; i < length; i++) {
-        Serial.print((char) data[i]);
-    }
-    Serial.println();
-    Serial.println("-----------------------");
-}
-*/
 void loop() {
   // Leer la cadena JSON recibida desde el Arduino Mega
   String jsonString = Serial2.readStringUntil('\n');
