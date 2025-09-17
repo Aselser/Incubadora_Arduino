@@ -1,7 +1,7 @@
-# Incubadora_Arduino
-Proyecto de incubadora neonatal: Código Arduino completo con controladores, pantalla y conectividad Wi-Fi para monitoreo remoto.
+# Neonatal incubator project
+Complete Arduino code with controllers, display, and Wi-Fi connectivity for remote monitoring.
 
-Se realizó en placa arduino MEGA 2560 y el display utilizado fue el LCD 1602 embebido en Keypad Shield D1 Robot para Arduino UNO.
-La conexion a internet se realizo mediante la placa ESP32 en conjunto un MQTT broker.
+It was developed on an Arduino MEGA 2560 board, and the display used was the LCD 1602 embedded in the D1 Robot Keypad Shield for Arduino UNO.
+The internet connection was achieved through an ESP32 board in combination with an MQTT broker.
 
-Se incluye un PDF de informe con la información completa de la incubadora electronica, esquematico del circuito electrónico y componentes de Hardware, además de la implementación de un centro de monitoreo vía WiFi en la plataforma ThingsBoard.
+A PDF report is included with complete information about the electronic incubator, schematic of the electronic circuit and hardware components, as well as the implementation of a Wi-Fi monitoring center on the ThingsBoard platform.
